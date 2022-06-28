@@ -1,0 +1,1 @@
+export const ContactsFeature = () => <h1>Hello contacts</h1>;

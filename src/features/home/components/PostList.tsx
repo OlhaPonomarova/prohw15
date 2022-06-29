@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { Link } from "react-router-dom";
 
 import { PostsInterface } from "../interfaces";
 import { PostItem } from "./PostItem";
@@ -21,6 +20,5 @@ export const PostList = ({ posts }: Props) => (
         {posts.map((posts) => (
             <PostItem key={posts.id} post={posts} />
         ))}
-        <Link to="contacts">Go to contacts</Link>
     </div>
 );
